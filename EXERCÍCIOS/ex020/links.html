@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(255, 88, 116);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(172, 23, 102);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: yellow;
+        }
+        
+        a::before {
+            content: '[link]' ;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none ;
+            font-weight: normal;
+            color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando LINKS</h1>
+    <li><a href="https://github.com/jessicaferreirabarbosa" target="_blank" rel ="external">Repositório GitHub</a></li>
+    <li><a href="https://www.youtube.com/@corinthians" target="_blank" rel="external">Canal do Youtube do Corinthians</a></li>
+    <li><a href="https://www.beyonce.com/" target="_blank" rel="external">Site Oficial da Beyoncé</a></li>
+    <li>
+        <a href="https://www.google.com/" target="_blank" rel="external">Site Google</a>
+    </li>
+    <li>
+        <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Youtube Curso em Vídeo</a>
+    </li>
+</body>
+</html>

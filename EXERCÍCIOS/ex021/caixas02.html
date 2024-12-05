@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgb(238, 238, 201);
+
+        }
+        header {
+            background-color: white;
+            padding: 15px;
+            margin: 0px;
+        }
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        main {
+            background-color: white;
+            padding: 15px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightblue;
+            padding: 5px;
+            
+        }
+        article > aside {
+            background-color: lavender;
+            width: 207px;
+            margin: 5px;
+        }
+        footer {
+            background-color: black;
+            color: beige;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre BRAT Summer</h2>
+                <aside>
+                    <p>Artigo escrito por José Maria</p>
+                </aside>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, impedit maxime! Maxime molestias, ipsa hic obcaecati alias quam esse quo nulla repellat, harum deserunt quibusdam corrupti ratione laborum in similique.</p>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> Desenvolvido por Lionel Messi da Silva Pinta</p>
+    </footer>
+</body>
+</html>
