@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagens de Fundo</title>
+    <title>Teste de imagem de fundo</title>
     <style>
         body{
-            background-image: url('imagens/wallpaper003.jpg');
+            background-image: url('imagens/pattern003.png');
+        }
+        header{
+            background-image: url('imagens/pattern002.png');
+            padding: 30px;
+            margin: 10px;
+            color:red;
         }
         div.quadrado{
             display: inline-block;
-            border: 1px solid black;
+            border: 2px solid black;
             width: 300px;
             height: 300px;
             border-radius: 10px;
-            background-color: lightblue;
+            background-color: bisque;
         }
         div#q1{
-            background-color: skyblue;
+            background-color: plum;
+
         }
         div#q2{
-            background-image: linear-gradient(to bottom, yellow, red);
+            background-image: linear-gradient(to bottom, white, red);
         }
         div#q3{
-            background-image: url('imagens/pattern003.png');
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+        footer{
+            background-image: url('imagens/pattern001.png');
+            padding: 30px;
+            color: blueviolet;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>CABEÇALHO</h1>
+    </header>
     <div class="quadrado" id="q1">
+        <p>teste</p>
 
     </div>
     <div class="quadrado" id="q2">
+        <p>texto</p>
 
     </div>
     <div class="quadrado" id="q3">
-
+       <h1>título</h1>
     </div>
+    <footer>
+        <p>rodapé</p>
+    </footer>
 </body>
 </html>
